@@ -1,0 +1,5 @@
+[run]
+include = lead_management/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
