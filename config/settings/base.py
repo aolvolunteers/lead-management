@@ -70,7 +70,8 @@ THIRD_PARTY_APPS = [
 ]
 LOCAL_APPS = [
     'lead_management.users.apps.UsersAppConfig',
-    # Your stuff: custom apps go here
+    # Your stuff: custom apps go here,
+    'core',
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
